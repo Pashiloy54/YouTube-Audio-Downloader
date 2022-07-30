@@ -1,0 +1,3 @@
+pyTelegramBotAPI
+pytube
+python-dotenv
