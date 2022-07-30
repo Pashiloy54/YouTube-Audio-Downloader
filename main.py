@@ -49,7 +49,5 @@ def main(message):
     except (exceptions.RegexMatchError, IndexError):
         bot.send_message(message.chat.id, "There is no such video!")
 
-    print(f"@{message.from_user.username}")
-
 
 bot.infinity_polling()
